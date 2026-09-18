@@ -1,0 +1,9 @@
+interface:
+  display_name: "EndNote + Codex (Collect)"
+  short_description: "提取并核验正文文献，生成 EndNote 可导入文件"
+  default_prompt: "使用 $endnote-collect 提取并核验这篇文稿实际引用的文献，按首次出现顺序去重，并生成 EndNote 可导入的 RIS 文件。"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+  brand_color: "#E87922"
+policy:
+  allow_implicit_invocation: true
